@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .backgroundimg{
   overflow: hidden;
   height: 620px;
+  background-image: url("/images/main.png.jpg");
 
 }
 .text{
@@ -39,6 +41,7 @@
     color: white;
     background-color: black;
 }
+
 
 .box {
     border: 3px solid rgb(219, 213, 213);
