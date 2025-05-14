@@ -65,6 +65,26 @@
     margin: 0px 100px ;
     text-align: center;
 }
+.productbox{
+    border: 3px solid rgb(219, 213, 213);
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    padding: px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: fit-content;
+}
+.productbox img{
+    height: 250px;
+    width: 330px;
+}
+.productbox p{
+    font-size: 20px;
+    font-weight: bold;
+}
 .btn{
     display: flex;
     align-items: center;
