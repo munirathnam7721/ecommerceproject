@@ -8,6 +8,8 @@
    border: 2px solid black;
    width: 1080px;
    border-radius: 8px;
+   overflow-y: scroll;
+   height:500px;
 
 }
 .itemlist p ,.muni p{
