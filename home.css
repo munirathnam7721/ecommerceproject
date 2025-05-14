@@ -4,6 +4,45 @@
     box-sizing: border-box;
 }
 
+.main_nav{
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+   background-color: rgb(249, 246, 246);
+  
+}
+
+.title p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.tabs button{
+    background: none;
+    border: none; 
+    font-size: 20px;
+    cursor: pointer;
+    padding: 6px 10px;
+    color: gray;
+}
+.tabs button:hover{
+    color: black;
+}
+.buttons {
+   display: flex;
+   gap: 20px;
+}
+.buttons button{
+    background: none;background: none;
+    cursor: pointer;
+    padding:6px 10px ;
+    border-radius: 5px;
+    height: max-content;
+}
+.buttons button:hover{
+    background-color: black;
+    color:white;
+}
+
 .backgroundimg{
   overflow: hidden;
   height: 620px;
