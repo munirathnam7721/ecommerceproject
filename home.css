@@ -1,5 +1,5 @@
 *{
-    /* margin: 5px; */
+    
     padding: 0;
     box-sizing: border-box;
 }
@@ -203,22 +203,37 @@ gap: 20px;
 }
 /*Responsive for the large mobile screen*/
 @media (min-width:321px) and (max-width:426px){
+    
     .main_nav {
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        padding: 10px;
+        padding: 4px 0px;
+        height: auto;
+        width: 100%;
         background: none;
+      background-color: rgb(249, 246, 246); ;
     }
     .title p {
         font-size: 25px;
+        margin: 0;
+    }
+    .tabs ,.buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
     }
     .tabs button, .buttons button {
-        font-size: 15px;
-        padding: 4px;
+        /* font-size: 15px;
+        padding: 4px; */
+         font-size: 14px;
+        padding: 4px 8px;
+        margin: 0;
     }
     .backgroundimg{
-        width: 400px !important
+        width: 100%!important
+    
     }
     .text{
     padding: 200px 10px !important
