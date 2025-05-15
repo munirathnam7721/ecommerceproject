@@ -18,19 +18,25 @@ function displayProducts(products) {
         const box = document.createElement('div');
         box.className = 'box';
 
-        box.innerHTML = `
-            <img src="${product.image}" alt="${product.title}">
-            <br>
-            <h3>${product.title.slice(0, 15)}...</h3>
-            <p>${product.description.slice(0, 110)}...</p>
-            <hr>
-            <p>$${product.price}</p>
-            <hr>
-            <div class="addcart">
-                <button class="details">Details</button>
-                <button class="addtocart">Add to Cart</button>
-            </div>
-        `;
+       box.innerHTML = `
+    <img src="${product.image}" alt="${product.title}">
+    <br>
+    <h3>${product.title.slice(0, 15)}...</h3>
+    <p>${product.description.slice(0, 110)}...</p>
+    <hr>
+    <p>$${product.price}</p>
+    <hr>
+    <div class="addcart">
+        <button class="details">Details</button>
+        <button class="addtocart"
+            data-id="${product.id}"
+            data-title="${product.title}"
+            data-price="${product.price}"
+            data-image="${product.image}">
+            Add to Cart
+        </button>
+    </div>
+`;
 
         container.appendChild(box);
     });
